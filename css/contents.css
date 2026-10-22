@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+/**************************
+ コンテンツエリア設定
+**************************/
+
+#contents, #sub_contents {
+	float:left;
+	width:512px;
+	text-align:left;
+	margin:0 20px 0 0;
+	overflow:hidden;
+}
+
+#main p.pagetop {
+	margin:20px 0 20px 390px;
+}
+#main p.pagetop a {
+	background:url(../images/page_top.jpg) no-repeat left top;
+	width:120px;
+	height:0px;
+	padding-top:14px;
+	overflow:hidden;
+	display:block;
+}
+
+body.eng #main p.pagetop {
+	margin:20px 0 20px 420px;
+}
+body.eng #main p.pagetop a {
+	background:url(../images/page_top_eng.jpg) no-repeat left top;
+}
+/******* トップページ用 ************************/
+
+#contents #top_message {
+	margin:0 0 30px 0;
+}
+
+#contents #top_message h2 {
+	background:url(../images/top_message_title.jpg) no-repeat left top;
+	width:512px;
+	height:0;
+	padding-top:43px;
+	overflow:hidden;
+	display:block;
+	margin:0 0 15px 0;
+}
+body.eng #contents #top_message h2 {
+	background:url(../images/top_message_title_eng.jpg) no-repeat left top;
+}
+
+#contents #top_message p {
+	margin:0 0 20px 0;
+}
+/******* 新着情報 ************************/
+
+#news {
+}
+#news h2 {
+	background:url(../images/news_title.jpg) no-repeat left top;
+	width:512px;
+	height:0;
+	padding-top:43px;
+	overflow:hidden;
+	display:block;
+	margin:0 0 10px 0;
+}
+body.eng #news h2 {
+	background:url(../images/news_title_eng.jpg) no-repeat left top;
+}
+#news p#backnumber a {
+	width:70px;
+	height:0px;
+	padding-top:14px;
+	overflow:hidden;
+	display:block;
+	float:right;
+	margin:-39px 10px 0 0;
+}
+body.eng #news p#backnumber a {
+	width:100px;
+	margin:-39px 12px 0 0;
+}
+
+#news dl {
+	margin:0 0 20px 0;
+	list-style-type:none;
+	clear:both;
+	text-align:left;
+}
+#news dl dt {
+	background:url(../images/arrow02.png) no-repeat left 4px;
+	padding:0 0 0 13px;
+	margin:0 20px 0 0;
+	float:left;
+	text-align:left;
+	color:#666;
+}
+#sub_contents #news dl dt {
+	display:none;
+}
+#news dl dd {
+	border-bottom:1px solid #DDD;
+	padding:0 0 10px 9em;
+	display:block;
+	margin:0 0 10px 0;
+	text-align:left;
+}
+#sub_contents #news dl dd {
+	padding:0 0 10px 0;
+}
+
+/******* サブページ用 ************************/
+
+
+#sub_contents h2 {
+	background:#EEE url(../images/arrow01.png) no-repeat 8px 11px;
+	color:#036;
+	border-bottom:2px solid #036;
+	padding:5px 5px 3px 25px;
+	font-size:150%;
+	margin:0 0 15px 0;
+}
+
+#sub_contents h3 {
+	padding:4px 0 2px 2px;
+	color:#000;
+	font-size:120%;
+	margin:0 0 15px 0;
+	clear:both;
+	border-bottom:1px dotted #999;
+	border-top:1px dotted #999;
+	background:#EFFDFF;
+}
+#sub_contents h4 {
+	border-bottom:1px dotted #036;
+	border-left:5px solid #036;
+	padding:2px 0 1px 5px;
+	font-size:110%;
+	margin:0 0 15px 0;
+	clear:both;
+}
+#sub_contents h5 {
+	background:url(../images/arrow02.png) no-repeat left 2px;
+	padding:0 0 0 15px;
+	font-size:100%;
+	margin:0 0 15px 10px;
+	clear:both;
+	color:#000;
+}
+#sub_contents p {
+	margin:10px 0px 20px 20px;
+	clear:both;
+}
+
+/* テーブル -------------------*/
+
+#sub_contents table {
+	border:2px solid #666;
+	margin:10px 0px 30px 20px;
+	width:490px;
+	clear:both;
+	background:#FFF;
+}
+#sub_contents table th {
+	border:1px solid #999;
+	padding:5px;
+	background:#EFFDFF;
+	color:#000;
+	white-space:nowrap;
+}
+#sub_contents table td {
+	border:1px solid #999;
+	padding:5px;
+	color:#333;
+}
+
+/* レイアウト用テーブル -------------------*/
+
+#sub_contents table.no-border {
+	border:0px;
+	margin:0px;
+	width:auto;
+}
+#sub_contents table.no-border th {
+	border:0px;
+	vertical-align:top;
+	background:#FFF;
+}
+#sub_contents table.no-border td {
+	border:0px;
+	vertical-align:top;
+	background:#FFF;
+}
+
+/* リスト -------------------*/
+#sub_contents ol {
+	list-style-type:decimal;
+	margin:10px 0px 20px 40px;
+}
+#sub_contents ol li {
+	margin:0 0 15px 0;
+	list-style-type:decimal;
+}
+#sub_contents ul {
+	list-style-type:disc;
+	margin:10px 0px 40px 40px;
+}
+#sub_contents ul li {
+	margin:0 0 15px 0;
+	list-style-type:disc;
+}
+#sub_contents ol.no-mark, #sub_contents ul.no-mark {
+	list-style-type:none;
+	margin:10px 0px 20px 30px;
+}
+#sub_contents ol.no-mark li, #sub_contents ul.no-mark li {
+	list-style-type:none;
+	margin:0 0 15px 0;
+}
+
+
+/* 2010年度 青木・常行研コロキウム -------------------*/
+
+#sub_contents.seminer table td {
+	text-align:left;
+}
+
+/* 編著書の紹介 -------------------*/
+
+#sub_contents.books img {
+	display:block;
+	margin:10px auto;
+	text-align:center;
+}
+
+
+/* サイトマップ -------------------*/
+#sitemap {
+	width:400px;
+	float:left;
+	margin:0 20px 0 0;
+}
+#sitemap ul {
+}
+
+#sitemap ul li {
+	list-style-type:none;
+	background:url(../images/arrow01.png) no-repeat left 2px;
+	padding:0 0 15px 18px;
+	margin-bottom:15px;
+	text-align:left;
+	border-bottom:1px solid #DDD;
+}
+
+#sitemap ul li a.new_win {
+	background:url(../images/new_window.png) no-repeat right 2px;
+	padding-right:17px;
+}

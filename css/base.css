@@ -1,0 +1,391 @@
+@charset "utf-8";
+
+body {
+	background:url(../images/bg.jpg) #FFF repeat-x left top;
+}
+
+#wrapper {
+	margin:0 auto;
+	text-align:center;
+}
+#wrapper a {
+	text-decoration:none;
+	color:#039;
+}
+#wrapper a:hover {
+	color:#093;
+	text-decoration:underline;
+}
+
+/**************************
+ ヘッダー設定
+**************************/
+
+#header {
+	background:url(../images/header.jpg) no-repeat center top;
+	width:1100px;
+	height:237px;
+	margin:0 auto;
+	text-align:center;
+}
+body.eng #header {
+	background:url(../images/header_eng.jpg) no-repeat center top;
+}
+
+#header h1 a {
+	width:400px;
+	height:0px;
+	padding-top:100px;
+	overflow:hidden;
+	display:block;
+	position:relative;
+	left:-460px;
+	top:95px;
+}
+
+#header p {
+	background:url(../images/header_logo.jpg) no-repeat -103px 10px;
+	width:320px;
+	height:0px;
+	padding-top:37px;
+	overflow:hidden;
+	margin:0 0 0 35px;
+	float:left;
+}
+
+#header a#logo {
+	background:url(../images/header_logo.jpg) no-repeat left 10px;
+	width:103px;
+	height:0px;
+	padding-top:37px;
+	overflow:hidden;
+	display:block;
+	float:left;
+	margin:0 0 0 80px;
+}
+
+#header ul {
+	float:right;
+	margin:17px 80px 0 0;
+}
+body.eng #header ul {
+	float:right;
+	margin:17px 95px 0 0;
+}
+
+#header ul li {
+	float:left;
+}
+
+#header ul li a {
+	background:url(../images/header_navi.jpg) no-repeat left top;
+	height:0px;
+	padding-top:14px;
+	display:block;
+	overflow:hidden;
+	margin:0 0 0 41px;
+}
+
+#header ul li.sitemap a {
+	width:100px;
+	background-position:-94px top;
+}
+#header ul li.sitemap a:hover {
+	background-position:-94px -14px;
+}
+
+
+#header ul li.english a {
+	width:66px;
+	background-position:-201px top;
+}
+#header ul li.english a:hover {
+	background-position:-201px -14px;
+
+}
+
+body.eng #header ul li.sitemap a {
+	width:75px;
+	background-position:-94px top;
+}
+body.eng #header ul li.sitemap a:hover {
+	background-position:-94px -14px;
+}
+#header ul li.japanese a {
+	width:78px;
+	background-position:-201px top;
+}
+#header ul li.japanese a:hover {
+	background-position:-201px -14px;
+
+}
+/**************************
+ メニュー設定
+**************************/
+
+#menu {
+	background:url(../images/menu_bg.jpg) repeat-x left top;
+	height:58px;
+	clear:both;
+}
+
+#menu ul {
+	width:940px;
+	height:58px;
+	margin:auto;
+}
+
+#menu ul li {
+	float:left;
+}
+#menu ul li a {
+	background-image:url(../images/menu.jpg);
+	background-repeat:no-repeat;
+	width:157px;
+	height:0;
+	padding-top:58px;
+	overflow:hidden;
+	display:block;
+}
+body.eng #menu ul li a {
+	background-image:url(../images/menu_eng.jpg);
+}
+
+#menu ul li.top a {
+	background-position:left top;
+}
+#menu ul li.top a:hover {
+	background-position:left -58px;
+}
+
+#menu ul li.research a {
+	background-position:-157px top;
+}
+#menu ul li.research a:hover {
+	background-position:-157px -58px;
+}
+
+#menu ul li.member a {
+	background-position:-314px top;
+}
+#menu ul li.member a:hover {
+	background-position:-314px -58px;
+}
+
+#menu ul li.publication a {
+	background-position:-471px top;
+	width:155px;
+}
+#menu ul li.publication a:hover {
+	background-position:-471px -58px;
+}
+
+#menu ul li.act a {
+	background-position:-626px top;
+}
+#menu ul li.act a:hover {
+	background-position:-626px -58px;
+}
+
+#menu ul li.access a {
+	background-position:-783px top;
+	width:157px;
+}
+#menu ul li.access a:hover {
+	background-position:-783px -58px;
+}
+
+
+/**************************
+ メイン設定
+**************************/
+#main {
+	width:940px;
+	padding:30px 0;
+	margin:0 auto;
+}
+#breadcrumb {
+	font-size:90%;
+	text-align:left;
+	margin:10px auto 5px auto;
+	width:940px;
+}
+
+/**************************
+ 左カラム設定
+**************************/
+
+#sidemenu {
+	width:200px;
+	float:left;
+	margin:0 20px 0 0;
+}
+#sidemenu ul {
+}
+
+#sidemenu td {
+	list-style-type:none;
+	background:url(../images/arrow01.png) no-repeat left 2px;
+	padding:0 0 10px 18px;
+	margin-bottom:15px;
+	text-align:left;
+	height:35px;
+	vertical-align:top;
+	
+}
+
+#sidemenu td a.new_win {
+	background:url(../images/new_window.png) no-repeat right 2px;
+	padding-right:17px;
+}
+
+#sidemenu td.id {
+	background:none;
+	text-align:left;
+	padding: 0 0 10px 0;
+}
+
+#sidemenu td.id span {
+	margin:0 45px 0 0;
+}
+body.eng #sidemenu td.id span {
+	margin:0 55px 0 0;
+}
+
+#sidemenu ul li.id span {
+	margin:-10px 0 0 0;
+	position:relative;
+	left:0;
+	top:5px;
+}
+
+
+/**************************
+ 右カラム設定
+**************************/
+
+
+#right {
+	width:187px;
+	float:right;
+	text-align:left;
+}
+
+/******* ご連絡先 **********/
+#contact {
+	margin:0 0 15px 0;
+}
+
+#contact h2 {
+	background:url(../images/contact_title.jpg) no-repeat left top;
+	height:0px;
+	padding-top:22px;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+body.eng #contact h2 {
+	background:url(../images/contact_title_eng.jpg) no-repeat left top;
+}
+#contact p {
+	margin:0 0 10px 3px;
+}
+#contact p span {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0 0 0 3px;
+}
+
+/******* バナーエリア **********/
+#banner {
+}
+#banner h2 {
+	background:url(../images/link_title.jpg) no-repeat left top;
+	height:0px;
+	padding-top:22px;
+	overflow:hidden;
+	margin:0 0 15px 0;
+}
+
+#top_files {
+	margin-bottom:15px;
+}
+#top_files table {
+	min-height:317px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#top_files table td.movie {
+	background:url(../images/movie/movie_bg.png) no-repeat left top;
+	padding:15px;
+	width:246px;
+	height:230px;
+	text-align:center;
+	overflow:hidden;
+}
+#top_files table td.movie img {
+	margin:10px auto;
+}
+#top_files table td.movie_title {
+	background:url(../images/movie/movie_title_bg.png) no-repeat left bottom;
+	padding:5px 15px 15px 15px;
+}
+#top_files table td.movie_title h2 {
+	background:url(../images/arrow01.png) no-repeat left 2px;
+	padding:0 0 0 16px;
+	font-weight:normal;
+}
+
+
+/**************************
+ フッター設定
+**************************/
+#footer {
+	background:url(../images/footer_bg.jpg) repeat-x left top;
+	clear:both;
+	height:152px;
+	overflow:hidden;
+	color:#FFF;
+}
+#footer_in {
+	background:url(../images/footer.jpg) no-repeat left top;
+	width:940px;
+	height:107px;
+	padding:30px 0 15px 0;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+body.eng #footer_in {
+	background:url(../images/footer_eng.jpg) no-repeat left top;
+}
+#footer_in ul {
+	position:relative;
+	left:50%;
+	float:left;
+}
+
+#footer_in ul li {
+	position:relative;
+	left:-50%;
+	float:left;
+	border-right:1px solid #FFF;
+	padding:0 15px;
+}
+#footer_in ul li.last {
+	border-right:0px solid #FFF;
+}
+
+#footer_in ul li a {
+	color:#FFF;
+}
+#footer_in ul li a:hover {
+	color:#FF0;
+}
+
+#footer_in p {
+	position:relative;
+	left:0;
+	top:80px;
+	font-size:12px;
+}
